@@ -10,4 +10,4 @@ console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"));
 console.log(ExplorerService.getExplorersUsernamesByMission(explorers, "node"));
 
 
-console.log(FizzbuzzService.applyValidationInExplorer("Woopa3"))
+//console.log(FizzbuzzService.applyValidationInExplorer("Woopa1"))
