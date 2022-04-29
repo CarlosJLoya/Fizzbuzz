@@ -1,7 +1,7 @@
 
 const Reader = require("../lib/utils/Reader");
 const ExplorerService = require("../lib/services/ExplorerService");
-const explorers = Reader.readJsonFile("explorerstest.json")
+const explorers = Reader.readJsonFile("./test/explorerstest.json")
 describe("Unit test for Explorer Service class", () => {
     test('1) Filtro por mision', () => {
         expect(ExplorerService.filterByMission(explorers, "node").length).toBeGreaterThanOrEqual(0);
